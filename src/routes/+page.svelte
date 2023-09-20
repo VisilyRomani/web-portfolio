@@ -1,12 +1,37 @@
 <script lang="ts">
 </script>
 
+<div class="container">
+	<h1>
+		<p>Hi, I am</p>
+		Michael Wong
+	</h1>
+	<h1>PLACEHOLDER</h1>
+</div>
+
 <style>
-	a {
-		color: white;
-		font-size: x-large;
-		text-decoration: none;
+	h1 {
+		padding: 0;
+		font-size: 40px;
+		font-family: 'PWScratched';
+		text-align: center;
+	}
+	.container {
 		display: flex;
-		justify-content: center;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content: space-around;
+		height: calc(100vh - 83px);
+	}
+
+	@media (max-height: 768px) {
+		.container {
+			height: calc(100vh - 119px);
+		}
+	}
+
+	h1 p {
+		font-family: 'HelloEngineer';
 	}
 </style>

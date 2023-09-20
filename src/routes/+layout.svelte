@@ -1,37 +1,37 @@
 <script lang="ts">
-	import BurgerButton from '$lib/BurgerButton.svelte';
+	import BurgerButton from '$lib/components/BurgerButton.svelte';
 	import '../main.css';
+	import { page } from '$app/stores';
 	let toggle = false;
 	const toggleNav = () => {
 		toggle = !toggle;
 	};
+	$: console.log($page.url.pathname);
 </script>
 
 <nav class="main-nav">
 	<a href="/">
-		<h1>Michael Wong</h1>
+		<h1>MW</h1>
 	</a>
 	<ul class="main-container">
 		<li>
-			<a class="link" href="/">Home</a>
+			<a class="link {$page.url.pathname === '/' && 'active'}" href="/">Home</a>
 		</li>
 		<li>
-			<a class="link" href="/projects">Projects</a>
+			<a class="link {$page.url.pathname === '/projects' && 'active'}" href="/projects">Projects</a>
+		</li>
+
+		<li>
+			<a class="link {$page.url.pathname === '/about' && 'active'}" href="/about">ABOUT</a>
 		</li>
 		<li>
-			<a class="link" href="/resume">RESUME</a>
-		</li>
-		<li>
-			<a class="link" href="/about">ABOUT</a>
-		</li>
-		<li>
-			<a class="link" href="/contact">CONTACT</a>
+			<a class="link {$page.url.pathname === '/contact' && 'active'}" href="/contact">CONTACT</a>
 		</li>
 	</ul>
 </nav>
 <nav class="mobile-nav">
 	<a href="/" class="title">
-		<h1>Michael Wong</h1>
+		<h1>MW</h1>
 	</a>
 	<div class="burger-container">
 		<BurgerButton bind:toggle />
@@ -42,9 +42,6 @@
 		</li>
 		<li class="list">
 			<a class="mobile-link" on:click={toggleNav} href="/projects">Projects</a>
-		</li>
-		<li class="list">
-			<a class="mobile-link" on:click={toggleNav} href="/about">RESUME</a>
 		</li>
 		<li class="list">
 			<a class="mobile-link" on:click={toggleNav} href="/about">ABOUT</a>
@@ -66,6 +63,10 @@
 		font-family: 'PWScratched';
 		src: url('/fonts/PWScratchedfont.ttf');
 	}
+	@font-face {
+		font-family: 'StarzyDarzy';
+		src: url('/fonts/StarzyDarzy.ttf');
+	}
 
 	li {
 		display: flex;
@@ -75,13 +76,39 @@
 	.link {
 		font-family: 'HelloEngineer';
 		text-align: center;
-		border: 1px solid;
 		padding: 0.2em;
-		transition: 0.4s;
+		transition: 0.4s ease;
+		margin-bottom: 3px;
+
+		display: inline-block;
+		position: relative;
+		padding-bottom: 3px;
+		margin-right: 10px;
+		scale: 1;
 	}
+	.active,
 	.link:hover {
-		background-color: rgba(255, 255, 255, 0.24);
+		scale: 1.3;
 	}
+	.link:hover:after {
+		width: 100%;
+		background: white;
+	}
+	.active.link:after {
+		width: 100%;
+		background: white;
+	}
+
+	.link:after {
+		content: '';
+		display: block;
+		margin: auto;
+		height: 1px;
+		width: 0px;
+		background: transparent;
+		transition: width 0.5s ease, background-color 0.5s ease;
+	}
+
 	.mobile-link {
 		font-family: 'HelloEngineer';
 		text-align: center;
@@ -169,6 +196,7 @@
 		border-bottom: 1px rgba(255, 255, 255, 0.455) solid;
 		margin-left: 1em;
 		margin-right: 1em;
+		height: 50px;
 	}
 
 	@media (max-width: 768px) {
