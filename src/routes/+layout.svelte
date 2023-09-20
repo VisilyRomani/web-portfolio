@@ -38,19 +38,19 @@
 	</div>
 	<ul class="mobile-container {toggle ? 'nav-active' : ''}">
 		<li class="list">
-			<a class="link" on:click={toggleNav} href="/">Home</a>
+			<a class="mobile-link" on:click={toggleNav} href="/">Home</a>
 		</li>
 		<li class="list">
-			<a class="link" on:click={toggleNav} href="/projects">Projects</a>
+			<a class="mobile-link" on:click={toggleNav} href="/projects">Projects</a>
 		</li>
 		<li class="list">
-			<a class="link" on:click={toggleNav} href="/about">RESUME</a>
+			<a class="mobile-link" on:click={toggleNav} href="/about">RESUME</a>
 		</li>
 		<li class="list">
-			<a class="link" on:click={toggleNav} href="/about">ABOUT</a>
+			<a class="mobile-link" on:click={toggleNav} href="/about">ABOUT</a>
 		</li>
 		<li class="list">
-			<a class="link" on:click={toggleNav} href="/contact">CONTACT</a>
+			<a class="mobile-link" on:click={toggleNav} href="/contact">CONTACT</a>
 		</li>
 	</ul>
 </nav>
@@ -80,6 +80,17 @@
 		transition: 0.4s;
 	}
 	.link:hover {
+		background-color: rgba(255, 255, 255, 0.24);
+	}
+	.mobile-link {
+		font-family: 'HelloEngineer';
+		text-align: center;
+		border-bottom: 1px solid;
+		padding: 0.2em;
+		transition: 0.4s;
+	}
+	.mobile-link:hover {
+		border-radius: 10px;
 		background-color: rgba(255, 255, 255, 0.24);
 	}
 	a {
@@ -152,6 +163,12 @@
 		margin: 1em;
 		padding-bottom: 10px;
 		border-bottom: 1px rgba(255, 255, 255, 0.455) solid;
+	}
+
+	.main-nav {
+		border-bottom: 1px rgba(255, 255, 255, 0.455) solid;
+		margin-left: 1em;
+		margin-right: 1em;
 	}
 
 	@media (max-width: 768px) {
