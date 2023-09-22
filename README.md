@@ -48,7 +48,7 @@ Before you get started, make sure you have the following prerequisites installed
 
     npm run dev
 
-  web portfolio will be available at http://localhost:5173. You can edit the source files in the src directory and see live updates as you save changes.
+  Web portfolio will be available at http://localhost:5173. You can edit the source files in the src directory and see live updates as you save changes.
 
 ## Project Structure
 
