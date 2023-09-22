@@ -7,15 +7,6 @@ Welcome to the README for my web portfolio built using SvelteKit and Vite and ho
 
 ![Screenshot from 2023-09-21 19-31-42](https://github.com/VisilyRomani/web-portfolio/assets/36494994/f5c522e2-2796-470a-9ef3-9d359cffaf88)
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Prerequisites](#prerequisites)
-- [Getting Started](#getting-started)
-- [Project Structure](#project-structure)
-- [Deployment](#deployment)
-- [License](#license)
-
 ## Introduction
 
 This project is designed to show off my projects and history. It uses SvelteKit for building the front end, Vite for the development environment, and Vercel for deployment.
