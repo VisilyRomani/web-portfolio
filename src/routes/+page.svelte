@@ -15,7 +15,7 @@
 	h1 {
 		all: unset;
 		padding: 0;
-		font-size: 7em;
+		font-size: min(9vw, 7em);
 		font-family: 'PWScratched';
 		text-align: center;
 	}
