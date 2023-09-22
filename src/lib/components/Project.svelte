@@ -8,7 +8,7 @@
 
 <div class="component">
 	<div class="container">
-		<a href={link} class="overlay">{title}</a>
+		<a target="_blank" href={link} class="overlay">{title}</a>
 		<img class="image" src={image} alt="" />
 	</div>
 	<p>{description}</p>
