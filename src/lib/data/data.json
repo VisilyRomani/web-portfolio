@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Enlive Manager",
-		"description": "Enlive Manager is a crm used to track and scheudle jobs, manage clients and send invoces. This is my first large project i have completed outside university.",
+		"description": "Enlive Manager is a CRM used to track and schedule jobs, manage clients and send invoices. This is my first large project I have completed outside university.",
 		"technologies": ["React", "NextJs", "Prisma", "tRPC"],
 		"image": "/image/em-logo.png",
 		"link": "https://github.com/VisilyRomani/enlive-manager-CRM"
