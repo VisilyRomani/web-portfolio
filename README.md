@@ -9,16 +9,14 @@ Welcome to the README for my web portfolio built using SvelteKit and Vite and ho
 
 ## Table of Contents
 
-- Introductio
-- Prerequisites
-- Getting Started
-- Project Structure
-- Customization
-- Deployment
-- Resources
-- License
+- [Introduction](#introduction)
+- [Prerequisites](#prerequisites)
+- [Getting Started](#getting-started)
+- [Project Structure](#project-structure)
+- [Deployment](#deployment)
+- [License](#license)
 
-Introduction
+## Introduction
 
 This project is designed to show off my projects and history. It uses SvelteKit for building the front end, Vite for the development environment, and Vercel for deployment.
 
@@ -28,7 +26,7 @@ Key features of the project include:
     A clean and organized codebase.
     Integration with Vercel for easy deployment and hosting.
 
-Prerequisites
+## Prerequisites
 
 Before you get started, make sure you have the following prerequisites installed on your system:
 
@@ -61,7 +59,7 @@ Before you get started, make sure you have the following prerequisites installed
 
   web portfolio will be available at http://localhost:5173. You can edit the source files in the src directory and see live updates as you save changes.
 
-Project Structure
+## Project Structure
 
 The project is structured as follows:
 
