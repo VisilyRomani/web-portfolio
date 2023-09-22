@@ -18,7 +18,7 @@
 	.component {
 		display: flex;
 		flex-direction: row;
-		justify-content: center;
+		justify-content: space-around;
 		gap: 1em;
 		margin: 3em;
 		border: 1px solid rgba(255, 255, 255, 0.413);
@@ -31,8 +31,11 @@
 		position: relative;
 		display: flex;
 		flex-direction: row;
+		z-index: 4;
 	}
 	.overlay {
+		z-index: 5;
+
 		font-family: 'PWScratched';
 		position: absolute;
 		font-weight: 600;
@@ -62,8 +65,7 @@
 	p {
 		font-family: 'StarzyDarzy';
 		font-size: xx-large;
-		padding-left: 2em;
-		padding-right: 2em;
+		max-width: 700px;
 		letter-spacing: 2px;
 	}
 	@media (max-width: 768px) {

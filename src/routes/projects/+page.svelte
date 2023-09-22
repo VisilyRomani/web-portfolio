@@ -3,6 +3,11 @@
 	import projectData from '$lib/data/data.json';
 </script>
 
+<svelte:head>
+	<title>Projects</title>
+	<meta name="robots" content="noindex nofollow" />
+</svelte:head>
+
 <div class="container">
 	{#each projectData as project}
 		<Project

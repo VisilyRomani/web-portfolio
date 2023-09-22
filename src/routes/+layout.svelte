@@ -6,7 +6,6 @@
 	const toggleNav = () => {
 		toggle = !toggle;
 	};
-	$: console.log($page.url.pathname);
 </script>
 
 <nav class="main-nav">
@@ -150,6 +149,8 @@
 	}
 	.mobile-nav {
 		margin: 0;
+		position: relative;
+		z-index: 9;
 		padding: 0;
 		transition: 0.4s;
 	}

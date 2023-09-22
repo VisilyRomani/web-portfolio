@@ -1,18 +1,21 @@
-<script lang="ts">
-</script>
+<svelte:head>
+	<title>Michael Wong</title>
+	<meta name="robots" content="noindex nofollow" />
+</svelte:head>
 
 <div class="container">
 	<h1>
 		<p>Hi, I am</p>
 		Michael Wong
 	</h1>
-	<h1>PLACEHOLDER</h1>
+	<!-- <h1>PLACEHOLDER</h1> -->
 </div>
 
 <style>
 	h1 {
+		all: unset;
 		padding: 0;
-		font-size: 40px;
+		font-size: 7em;
 		font-family: 'PWScratched';
 		text-align: center;
 	}

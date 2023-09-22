@@ -1,3 +1,8 @@
+<svelte:head>
+	<title>Contact</title>
+	<meta name="robots" content="noindex nofollow" />
+</svelte:head>
+
 <div class="container">
 	<div class="left">
 		<p>Send me a message</p>

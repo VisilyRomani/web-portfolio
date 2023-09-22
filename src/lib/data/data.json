@@ -4,19 +4,19 @@
 		"description": "Enlive Manager is a crm used to track and scheudle jobs, manage clients and send invoces. This is my first large project i have completed outside university.",
 		"technologies": ["React", "NextJs", "Prisma", "tRPC"],
 		"image": "/image/em-logo.png",
-		"link": "https://github.com/VisilyRomani/enlive-manager"
+		"link": "https://github.com/VisilyRomani/enlive-manager-CRM"
 	},
 	{
 		"title": "DnD Initiative",
 		"description": "DnD Initiative is an application used to manage users initiative and track their inventories. This started as a local project that tracks users inititive but is expanding to cover the player's item invetory.",
-		"technologies": ["tauri", "Svelte", "Supabase"],
+		"technologies": ["SvelteKit", "Supabase"],
 		"image": "/image/test.png",
 		"link": "https://github.com/VisilyRomani/dnd-initiative"
 	},
 	{
 		"title": "Portfolio",
 		"description": "This is the website you are currently viewing used as a testing ground to practice my CSS layout and animations.",
-		"technologies": ["Svelte", "Vite"],
+		"technologies": ["SvelteKit", "Vite"],
 		"image": "/image/test2.png",
 		"link": "https://github.com/VisilyRomani/web-portfolio"
 	}
