@@ -8,9 +8,9 @@
 	},
 	{
 		"title": "DnD Initiative",
-		"description": "DnD Initiative is an application used to manage users initiative and track their inventories. This started as a local project that tracks users inititive but is expanding to cover the player's item invetory.",
+		"description": "DnD Initiative is as a offline application that tracks users inititive but is expanding to cover the player's item invetory.",
 		"technologies": ["SvelteKit", "Supabase"],
-		"image": "/image/test.png",
+		"image": "/image/dnd.png",
 		"link": "https://github.com/VisilyRomani/dnd-initiative"
 	},
 	{
