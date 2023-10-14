@@ -124,7 +124,6 @@
 		font-size: xx-large;
 		text-decoration: none;
 		display: flex;
-		width: 100%;
 	}
 	h1 {
 		text-align: center;
@@ -154,10 +153,7 @@
 		padding: 0;
 		transition: 0.4s;
 	}
-	.list {
-		width: 60%;
-		text-align: center;
-	}
+
 	.mobile-container {
 		display: flex;
 		flex-direction: column;
