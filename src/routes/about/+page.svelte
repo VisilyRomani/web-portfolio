@@ -21,11 +21,26 @@
 			expectations, enhancing both usability and visual appeal. I'm excited to be part of the
 			ever-evolving digital landscape and eager to contribute my skills to your projects.
 		</p>
-		<p>placehodler</p>
+		<div class="card">
+			<img src="/image/cat.jpg" alt=""/>
+			<p>
+				cat
+			</p>
+		</div>
 	</div>
 </div>
 
 <style>
+	.card{
+		width: 300px;
+		height: 300px;
+		background-color: white;
+		padding: 1em;
+		transform: rotate(-5deg);
+	}
+	img{
+		width:100%
+	}
 	.text-body {
 		display: flex;
 		flex-direction: row;
