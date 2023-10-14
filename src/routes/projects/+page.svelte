@@ -13,7 +13,6 @@
 		<Project
 			description={project.description}
 			image={project.image}
-			technologies={project.technologies}
 			title={project.title}
 			link={project.link}
 		/>

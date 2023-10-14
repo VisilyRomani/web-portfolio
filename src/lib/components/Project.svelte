@@ -2,7 +2,6 @@
 	export let description = '';
 	export let image = '';
 	export let title = '';
-	export let technologies: string[] = [];
 	export let link = '';
 </script>
 
