@@ -23,7 +23,7 @@
 		border: 1px solid rgba(255, 255, 255, 0.413);
 		padding: 1em;
 	}
-	.component:nth-child(2) {
+	.component:nth-child(even) {
 		flex-direction: row-reverse;
 	}
 	.container {
@@ -54,8 +54,8 @@
 		text-align: center;
 	}
 	.image {
-		display: block;
-		width: 300px;
+		width: 100%;
+		max-width: 300px;
 		object-fit: contain;
 	}
 	.container:hover .overlay {

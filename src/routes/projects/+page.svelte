@@ -21,8 +21,9 @@
 
 <style>
 	.container {
-		display: grid;
-		grid-template-columns: 1fr;
-		grid-auto-rows: 1fr;
+		display: flex;
+		flex-direction: column;
+		/* grid-template-columns: 1fr; */
+		/* grid-auto-rows: 1fr; */
 	}
 </style>

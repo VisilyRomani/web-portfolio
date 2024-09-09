@@ -1,22 +1,26 @@
 [
-	{
+
+		{
 		"title": "Enlive Manager",
-		"description": "Enlive Manager is a CRM used to track and schedule jobs, manage clients and send invoices. This is my first large project I have completed outside university.",
-		"technologies": ["React", "NextJs", "Prisma", "tRPC"],
-		"image": "/image/em-logo.png",
-		"link": "https://github.com/VisilyRomani/enlive-manager-CRM"
+		"description": "Enlive Manager is a platform offers seamless job tracking, empowering you to oversee projects from start to finish, centralize client information and create simple scheudles. It also includes an automated invoicing feature that simplifies the billing process, allowing you to generate and dispatch invoices effortlessly.",
+		"image": "/image/enlive-manager.png",
+		"link": "https://github.com/VisilyRomani/svelte-manager"
 	},
 	{
-		"title": "DnD Initiative",
-		"description": "DnD Initiative is as a offline application that tracks users inititive but is expanding to cover the player's item invetory.",
-		"technologies": ["SvelteKit", "Supabase"],
-		"image": "/image/dnd.png",
-		"link": "https://github.com/VisilyRomani/dnd-initiative"
+		"title": "DebtSnap",
+		"description": "DebtSnap is a mobile forward progressive web app that is used to track and manage debt between different friends.",
+		"image": "/image/debt-snap.png",
+		"link": "https://github.com/VisilyRomani/Debtsnap"
+	},
+	{
+		"title": "TTS Model Helper",
+		"description": "TTSModelHelper is used to record audio training data for rhasspy Piper text to speach. Users can import a transcript for a model they create. Preview and listen to past audio they recorded and export all of the files into a compliant zip folder containing all of their training data.",
+		"image": "/image/256.png",
+		"link": "https://github.com/VisilyRomani/TTSModelHelper"
 	},
 	{
 		"title": "Portfolio",
 		"description": "This is the website you are currently viewing used as a testing ground to practice my CSS layout and animations.",
-		"technologies": ["SvelteKit", "Vite"],
 		"image": "/image/test2.png",
 		"link": "https://github.com/VisilyRomani/web-portfolio"
 	}

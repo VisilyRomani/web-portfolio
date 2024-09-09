@@ -8,10 +8,10 @@
 		<p>Send me a message</p>
 		<a class="contact" href="mailto:michael4161@hotmail.com"> Email</a>
 	</div>
-	<div class="right">
+	<!-- <div class="right">
 		<p>My history in one pdf</p>
 		<a class="contact" target="_blank" href="/Michael Wong Resume.pdf"> Resume</a>
-	</div>
+	</div> -->
 </div>
 
 <style>
@@ -20,7 +20,7 @@
 		flex-direction: row;
 		justify-content: space-around;
 		font-family: 'HelloEngineer';
-		font-size: 4em;
+		font-size: 3em;
 		flex-wrap: wrap;
 		height: calc(100vh - 83px);
 	}
@@ -37,12 +37,12 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	.right {
+	/* .right {
 		display: flex;
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
-	}
+	} */
 	.contact {
 		all: unset;
 		transition: scale 0.4s ease;
