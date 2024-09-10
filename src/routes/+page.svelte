@@ -33,6 +33,9 @@
 			height: calc(100vh - 119px);
 		}
 	}
+	p{
+		margin-top: 0;
+	}
 
 	h1 p {
 		font-family: 'HelloEngineer';
